@@ -5,9 +5,7 @@ Map is a list operator that maps a function over a list.
 ## Scala
 
 ```scala
-export function maps(x: number[]): number[]{
-  return x.map(e => e * 2);
-}
+def maps(x: List[Int]): Int[] = x map (_*2)
 ```
 
 ## TypeScript
